@@ -1,7 +1,9 @@
 
 package projectschoolmanagementsystem;
+import java.io.Serializable;
 
 public class Classroom {
+    private static final long SerialVersionUID = 1L;
     private String classroomID; // Unique identifier for the classroom
     private int capacity; // Maximum number of students the classroom can accommodate
 

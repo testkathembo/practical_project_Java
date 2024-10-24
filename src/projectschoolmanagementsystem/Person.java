@@ -1,6 +1,8 @@
 package projectschoolmanagementsystem;
+import java.io.Serializable;
 
 public abstract class Person {
+    private static final long SerialVersionUID = 1L;
     protected String name;
     protected int age;
     protected Address address;

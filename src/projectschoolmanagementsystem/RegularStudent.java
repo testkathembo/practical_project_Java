@@ -1,9 +1,18 @@
 package projectschoolmanagementsystem;
 
+/**
+ * Makint this class serializable so to allow objects to be written to and read from files
+ * * 
+ * @author User
+ */
+import java.io.Serializable;
+//import.io.File;
+//import.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RegularStudent extends Person {
+public class RegularStudent extends Person implements Serializable {
+    private static final long SerialVersionUID = 1L; // serialization practice
     private int studentID;
     private List<Course> courses;
 

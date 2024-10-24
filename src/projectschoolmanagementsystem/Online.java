@@ -1,6 +1,8 @@
 package projectschoolmanagementsystem;
+import java.io.Serializable;
 
 public class Online extends Course {
+    private static final long SerialVersionUID = 1L;
     private String platform; // Platform used for the online course (e.g: Zoom, Moodle, Teams)
 
     public Online(String courseID, String courseName, String platform) {

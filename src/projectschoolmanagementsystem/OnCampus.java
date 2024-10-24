@@ -1,6 +1,8 @@
 package projectschoolmanagementsystem;
+import java.io.Serializable;
 
 public class OnCampus extends Course {
+    private static final long SerialVersionUID = 1L;
     private String location; // Location of the on-campus course (e.g., Room 101, Main Building)
 
     public OnCampus(String courseID, String courseName, String location) {

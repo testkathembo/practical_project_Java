@@ -1,6 +1,8 @@
 package projectschoolmanagementsystem;
+import java.io.Serializable;
 
 public abstract class Course {
+    private static final long SerialVersionUID = 1L;
     private String courseID;
     private String courseName;
 

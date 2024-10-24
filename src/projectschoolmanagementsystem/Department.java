@@ -3,8 +3,10 @@ package projectschoolmanagementsystem;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.io.Serializable;
 
 public class Department {
+    private static final long SerialVersionUID = 1L;
     // Attributes of the Department class
     private String departmentID; // Unique identifier for department
     private List<StaffOnly> teachers; // List of teachers in the department

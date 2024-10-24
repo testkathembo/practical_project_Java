@@ -2,9 +2,11 @@ package projectschoolmanagementsystem;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.io.Serializable;
 
 // This class represents a staff member who is also a teacher
 public class Staff_Teacher extends StaffOnly implements Teacher {
+    private static final long SerialVersionUID = 1L;
     private List<Course> coursesTaught; // List of courses the staff member teaches
 
     // Constructor to initialize Staff_Teacher attributes
